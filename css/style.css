@@ -1,0 +1,148 @@
+@font-face{
+    font-family:leaves_and_ground;
+    src: url(../fuente/leaves_and_ground.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondovideo{
+    height: 100%;
+    width: auto;
+    z-index: 0px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#inicio{
+    position: relative;
+}
+
+header{
+    /* border: 2px solid red; */
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(216, 191, 216, 0.548);
+}
+
+.contentitulo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+}
+
+.contentitulo header{
+    height: 70px;
+}
+
+.logo{
+    /* border: 1px solid blue; */
+    width: 75px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+
+}
+
+nav{
+    /* border: 1px solid blue; */
+    font-family: leaves_and_ground;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    padding: 25px;
+    
+}
+
+.titulo{
+    /* border: 1px solid blue; */
+    font-family: leaves_and_ground;
+    font-size: 4em;
+    height: calc(100% - 110px);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    align-items: center;
+    
+}
+
+.cajatitulo{
+    /* border: 1px solid blue; */
+    position: absolute;
+    color: thistle;
+}
+
+.boton{
+    font-family: leaves_and_ground;
+    margin: 1em;
+    padding: 20px;
+    text-decoration: none;
+    color: thistle;
+    font-size: 25px;
+}
+
+.cajaicons{
+    border: 1px solid yellow;
+    height: 60px;
+    width: 100%;
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.cajaicons i{
+    padding: 5px;
+}
+.colortwitter{
+    color: white;
+    color: rgb(49,162,207);
+    font-size: 40px;
+}
+
+.colorface{
+    color: white;
+    color: blue;
+    font-size: 40px;
+}
+
+.colorwhats{
+    color: white;
+    color: chartreuse;
+    font-size: 40px;
+}
+
+.colorinsta{
+    color: white;
+    font-size: 40px;
+    color: fuchsia;
+}
+
+
+#escenarios{
+    height: 100vh;
+    width: 100%;
+    background-color: thistle;
+}
+
+#escenarios h3{
+    font-family: leaves_and_ground;
+}
